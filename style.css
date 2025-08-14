@@ -2,12 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-body{
-    font-family: Ancizar Sans;
-}
-
-
 #navbarNav{
     justify-content: end;
 }
@@ -197,7 +191,7 @@ body{
 }
 .skill-label {
   text-align: left;
-
+  font-family: 'Ancizar Sans', sans-serif;
     font-weight: bold;
   }
  
