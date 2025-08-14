@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body{
     font-family: Ancizar Sans;
 }
@@ -32,10 +37,10 @@ body{
       font-family: 'Ancizar Sans', sans-serif;
     }
     .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background-color:gray;
-      color: white;
+     display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 10%;
     }
     .hero img {
       max-width: 200px;
@@ -140,7 +145,7 @@ body{
   color: white;
 }
 .html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.javascript {width: 65%; background-color: #f44336;}
+.css {width: 90%; background-color: #2196F3;}
+.js{width: 65%; background-color: #f44336;}
 
 
