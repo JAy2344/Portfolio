@@ -200,3 +200,12 @@ html {
 .js{width: 65%; background-color: #f44336;}
 
 
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
