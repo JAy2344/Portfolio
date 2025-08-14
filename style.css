@@ -191,10 +191,15 @@ body{
   text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: white;
+  color: black;
   width: 60%;
   margin: 0 auto;
 }
+.skill-label {
+  text-align: left;
+
+    font-weight: bold;
+  }
  
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 90%; background-color: #2196F3;}
