@@ -1,107 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio Hero Section</title>
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
-    body {
-        background-color: #fff;
-    }
-    .hero {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 50px 10%;
-    }
-    .hero-text {
-        flex: 1;
-    }
-    .hero-text h1 {
-        font-size: 2.8rem;
-        font-weight: bold;
-        color: #0a0a23;
-    }
-    .hero-text h1 span {
-        color: #00a8b5;
-    }
-    .hero-text p {
-        color: #555;
-        margin: 15px 0 30px;
-        max-width: 400px;
-    }
-    .btn {
-        background-color: #00a8b5;
-        color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 5px;
-    }
-    .hero-image {
-        position: relative;
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .circle-frame {
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        padding: 10px;
-        background: conic-gradient(#00a8b5 0deg 180deg, #0a0a23 180deg 360deg);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .circle-frame img {
-        width: 230px;
-        height: 230px;
-        border-radius: 50%;
-        object-fit: cover;
-        background-color: white;
-    }
-    .contact-info {
-        display: flex;
-        gap: 20px;
-        margin-top: 20px;
-    }
-    .contact-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: #555;
-        font-size: 14px;
-    }
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Center container */
+  .skill-container {
+    width: 60%;
+    margin: 0 auto; /* Centers horizontally */
+  }
+
+  p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+
+  .skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .html {
+    width: 90%;
+    background-color: #e44d26;
+  }
+
+  .css {
+    width: 90%;
+    background-color: #264de4;
+  }
+
+  .js {
+    width: 60%;
+    background-color: #f7df1e;
+    color: black;
+  }
 </style>
-</head>
-<body>
 
-<section class="hero">
-    <div class="hero-text">
-        <h1>DIGITAL <span>MARKETING</span> EXPERT</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="#" class="btn">LEARN MORE</a>
+<div class="skill-container">
+  <p>HTML</p>
+  <div class="skills html">90%</div>
 
-        <div class="contact-info">
-            <div class="contact-item">📞 +123-456-7890</div>
-            <div class="contact-item">🌐 www.reallygreatsite.com</div>
-        </div>
-    </div>
+  <p>CSS</p>
+  <div class="skills css">90%</div>
 
-    <div class="hero-image">
-        <div class="circle-frame">
-            <img src="Ayanda.jpeg" alt="Profile Picture">
-        </div>
-    </div>
-</section>
-
-</body>
-</html>
+  <p>JavaScript</p>
+  <div class="skills js">60%</div>
+</div>

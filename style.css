@@ -192,7 +192,10 @@ body{
   padding-bottom: 10px;
   padding-top: 10px;
   color: white;
+  width: 60%;
+  margin: 0 auto;
 }
+ 
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 90%; background-color: #2196F3;}
 .js{width: 65%; background-color: #f44336;}
